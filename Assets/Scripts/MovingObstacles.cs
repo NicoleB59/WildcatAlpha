@@ -5,9 +5,8 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     //Declaring the speed and referencing another script
-    private float speed = 12;
+    private float speed;
     private PlayerControls catControls;
-
     private float bound = -52;
 
     // Start is called before the first frame update
@@ -15,6 +14,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         //Getting the components from ref script
         catControls = GameObject.Find("Cat").GetComponent<PlayerControls>();
+
     }
 
     // Update is called once per frame

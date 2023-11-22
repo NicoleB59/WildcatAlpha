@@ -388,9 +388,12 @@
 "Assets/Course Library/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/Course Library/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/Course Library/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/Scripts/MovingBackGround.cs"
+"Assets/Scripts/GitHubLink.cs"
+"Assets/Scripts/MovingLeft.cs"
 "Assets/Scripts/MovingObstacles.cs"
 "Assets/Scripts/PlayerControls.cs"
+"Assets/Scripts/RepeatBackground.cs"
+"Assets/Scripts/SceneChanger.cs"
 "Assets/Scripts/Spawner.cs"
 -langversion:9.0
 
