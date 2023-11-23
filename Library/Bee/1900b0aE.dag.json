@@ -19916,11 +19916,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1505189,
-<<<<<<< HEAD
-      "PayloadLength": 33020,
-=======
       "PayloadLength": 36024,
->>>>>>> parent of 6027c22f (CAT & BIN)
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -19932,11 +19928,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 1538296,
-=======
       "PayloadOffset": 1541300,
->>>>>>> parent of 6027c22f (CAT & BIN)
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -20180,8 +20172,6 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
-<<<<<<< HEAD
-=======
         "Assets/Course Library/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs",
         "Assets/Course Library/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs",
         "Assets/Course Library/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
@@ -20218,7 +20208,6 @@
         "Assets/Course Library/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs",
         "Assets/Course Library/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs",
         "Assets/Course Library/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs",
->>>>>>> parent of 6027c22f (CAT & BIN)
         "Assets/Scripts/GitHubLink.cs",
         "Assets/Scripts/MovingLeft.cs",
         "Assets/Scripts/MovingObstacles.cs",
@@ -20464,11 +20453,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 1538392,
-=======
       "PayloadOffset": 1541396,
->>>>>>> parent of 6027c22f (CAT & BIN)
       "PayloadLength": 9366,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
