@@ -6,14 +6,13 @@ public class MovingLeft : MonoBehaviour
 {
     public float speed;
     private PlayerControls catControls;
-    private float bound = -10;
+    private float bound = -50;
 
     // Start is called before the first frame update
     void Start()
     {
         catControls = GameObject.Find("Cat").GetComponent<PlayerControls>();
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -22,7 +21,7 @@ public class MovingLeft : MonoBehaviour
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
         }
-        //if object goes off the screen that is not the backgrund, destroy it
+        //if object goes off the screen that is not the background, destroy it
         if (transform.position.x < bound && gameObject.CompareTag("bin"))
         {
             Destroy(gameObject);
