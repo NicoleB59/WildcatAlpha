@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-23.74167823791504,"y":88.68634796142578,"z":-172.51596069335938},"rotation":{"x":0.2360590249300003,"y":-0.14080166816711427,"z":0.034591104835271838,"w":0.9608840346336365},"size":19.26161003112793,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":486.1861572265625,"y":-106.21173095703125,"z":873.4144287109375},"rotation":{"x":0.08162539452314377,"y":0.1989591121673584,"z":-0.016628239303827287,"w":0.9764717221260071},"size":597.2061767578125,"orthographic":false}
+>>>>>>> parent of 6027c22f (CAT & BIN)
