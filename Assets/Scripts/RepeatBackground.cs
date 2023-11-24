@@ -6,7 +6,7 @@ public class RepeatBackground : MonoBehaviour
 {
     //private Vector3 startP;
     //private float repeatW;
-
+    
     public float speed;
     private Vector3 StartPosition;
 
