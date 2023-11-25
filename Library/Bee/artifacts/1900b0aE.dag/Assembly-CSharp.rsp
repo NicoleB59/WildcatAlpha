@@ -396,7 +396,6 @@
 "Assets/Scripts/PlayerControls.cs"
 "Assets/Scripts/RepeatBackground.cs"
 "Assets/Scripts/SceneChanger.cs"
-"Assets/Scripts/Spawner.cs"
 -langversion:9.0
 
 /deterministic
