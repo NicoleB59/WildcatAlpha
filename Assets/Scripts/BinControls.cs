@@ -7,7 +7,7 @@ public class BinControls : MonoBehaviour
     public GameObject trashPrefab; //this item is shot out of bin
     public float minInterval = 1f; //minimum time between each shot
     public float maxInterval = 3f; //maximum time between each shot
-
+    public bool gameOver = false;
     private float nextShootTime;
 
     // Start is called before the first frame update

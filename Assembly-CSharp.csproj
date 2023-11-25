@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\GitHubLink.cs" />
     <Compile Include="Assets\Scripts\BinsSpawner.cs" />
     <Compile Include="Assets\Course Library\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\TrashControls.cs" />
     <Compile Include="Assets\Course Library\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Course Library\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Course Library\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
