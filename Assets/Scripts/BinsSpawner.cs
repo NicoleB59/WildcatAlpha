@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class BinsSpawner : MonoBehaviour
 {
-    public GameObject[] binPrefabs;
-    private float spawnRangeX = 209f;
-    private float spawnPosZ = -7.9f;
+    public GameObject binPrefabs;
+    private Vector3 spawnPos = new Vector3(235, 2.3f, 0);
+    private float startDelay = 2;
+    private float repeatRate = 8;
+    public bool gameOver = false;
+    private PlayerControls playerControlsScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
+        playerControlsScript = GameObject.Find("Cat").GetComponent<PlayerControls>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void SpawnObstacle()
     {
-      if(Input.GetKeyDown(KeyCode.D))
+        if(playerControlsScript.gameOver == false)
         {
-            //Randomly generate Trash
-            Vector3 spawnRos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), spawnPosZ);
-            int binIndex = Random.Range(0, binPrefabs.Length);
-            Instantiate(binPrefabs[binIndex], new Vector3(209, 7.9f, -7.9f), binPrefabs[binIndex].transform.rotation);
-        }  
+            Instantiate(binPrefabs, spawnPos, binPrefabs.transform.rotation);
+        }
     }
 }

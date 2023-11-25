@@ -14,7 +14,7 @@ public class BinControls : MonoBehaviour
     void Start()
     {
         //set intial shoot time
-        nextShootTime = Time.time + Random.RandomRange(minInterval, maxInterval);
+        nextShootTime = Time.time + Random.Range(minInterval, maxInterval);
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class BinControls : MonoBehaviour
             ShootItem();
 
             //set the next shoot time
-            nextShootTime = Time.time + Random.RandomRange(minInterval, maxInterval);
+            nextShootTime = Time.time + Random.Range(minInterval, maxInterval);
         }
     }
      void ShootItem()
@@ -34,4 +34,5 @@ public class BinControls : MonoBehaviour
         // Instantiate the item at the shooter's position
         Instantiate(trashPrefab, transform.position, Quaternion.identity);
     }
+
 }

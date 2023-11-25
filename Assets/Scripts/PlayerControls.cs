@@ -36,8 +36,6 @@ public class PlayerControls : MonoBehaviour
         {
             isOnGround = true;
         }
-
-
     }
 
    private void OnCollisionEnter(Collision collision)
