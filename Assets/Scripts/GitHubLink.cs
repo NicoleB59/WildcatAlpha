@@ -6,7 +6,7 @@ public class GitHubLink : MonoBehaviour
 {
     public void OpenLink()
     {
-        Application.OpenURL("");
+        Application.OpenURL("https://github.com/NicoleB59/WildcatAlpha");
 
     }
 }

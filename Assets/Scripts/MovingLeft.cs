@@ -6,7 +6,7 @@ public class MovingLeft : MonoBehaviour
 {
     public float speed;
     private PlayerControls catControls;
-    private float bound = -50;
+    private float bound = -90;
 
     // Start is called before the first frame update
     void Start()
