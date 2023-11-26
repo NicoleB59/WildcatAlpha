@@ -6,7 +6,7 @@ public class RepeatBackground : MonoBehaviour
 {
     //private Vector3 startP;
     //private float repeatW;
-    
+
     public float speed;
     private Vector3 StartPosition;
 
@@ -27,7 +27,7 @@ public class RepeatBackground : MonoBehaviour
             //transform.position = startP;
         //}
         transform.Translate(Vector3.left * speed * Time.deltaTime);
-        if (transform.position.y < -250f)
+        if (transform.position.x < 75.3f)
         {
             transform.position = StartPosition;
         }

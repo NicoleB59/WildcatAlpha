@@ -52,7 +52,7 @@ public class PlayerControls : MonoBehaviour
         else if (collision.gameObject.CompareTag("bin"))
         {
             gameOver = true;
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
             Debug.Log("Game Over!");
         }
         

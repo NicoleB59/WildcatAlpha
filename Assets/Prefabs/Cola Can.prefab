@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 7256681262535333292}
   - component: {fileID: -4597027492445740933}
   - component: {fileID: 5795790283355303476}
-  - component: {fileID: 7739532949160883142}
   m_Layer: 0
   m_Name: Cola Can
   m_TagString: trash
@@ -147,17 +146,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa28e6232678c4b45ae0c555ac8b6c72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
---- !u!114 &7739532949160883142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333211741549933866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e93bbe3eebcaac45a0ed3cbfaf5f353, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
+  speed: 30
