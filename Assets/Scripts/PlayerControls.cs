@@ -52,7 +52,7 @@ public class PlayerControls : MonoBehaviour
         else if (collision.gameObject.CompareTag("bin"))
         {
             gameOver = true;
-            Destroy(gameObject);
+            Destroy(collision.gameObject);
             Debug.Log("Game Over!");
         }
         
@@ -61,6 +61,7 @@ public class PlayerControls : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Debug.Log("MEOW~");
+            //cat shoots furballs
         }
     }
 }

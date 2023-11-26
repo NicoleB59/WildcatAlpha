@@ -13,7 +13,7 @@ public class BinControls : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //set intial shoot time
+        //set intial shoot times
         nextShootTime = Time.time + Random.Range(minInterval, maxInterval);
     }
 

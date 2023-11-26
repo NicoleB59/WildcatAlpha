@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BinsSpawner : MonoBehaviour
 {
-    public GameObject binPrefabs; 
+    public GameObject binPrefabs;
     private Vector3 spawnPos = new Vector3(235, 2.3f, -10);
     private float startDelay = 2; 
     private float repeatRate = 8;
@@ -23,6 +23,7 @@ public class BinsSpawner : MonoBehaviour
         if(playerControlsScript.gameOver == false)
         {
             Instantiate(binPrefabs, spawnPos, binPrefabs.transform.rotation);
+            
         }
     }
 }

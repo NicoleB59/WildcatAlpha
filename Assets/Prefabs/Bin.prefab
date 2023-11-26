@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa28e6232678c4b45ae0c555ac8b6c72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 10
 --- !u!114 &-8495320536307223945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,7 +177,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trashPrefab: {fileID: 333211741549933866, guid: 247c9b746c55ede4789e8fa9f482f549, type: 3}
   minInterval: 1
-  maxInterval: 3
+  maxInterval: 4
+  gameOver: 0
 --- !u!1 &2604246754308984811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8592543221775372764, guid: e8f52ddc5e8ee754abba0f542106d4a0, type: 3}

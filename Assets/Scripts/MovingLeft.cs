@@ -17,12 +17,16 @@ public class MovingLeft : MonoBehaviour
     void Update()
     {
         //if the game is not over it should move to the left continuously
-        if(!catControls.gameOver)
+        if (!catControls.gameOver)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
         }
         //if object goes off the screen that is not the background, destroy it
-        if (transform.position.x < bound && gameObject.CompareTag("bin"))
+        else if (transform.position.x < bound && gameObject.CompareTag("bin"))
+        {
+            Destroy(gameObject);
+        }
+        else if (transform.position.y < bound && gameObject.CompareTag("trash"))
         {
             Destroy(gameObject);
         }

@@ -390,13 +390,14 @@
 "Assets/Course Library/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Scripts/BinControls.cs"
 "Assets/Scripts/BinsSpawner.cs"
+"Assets/Scripts/GameManagerX.cs"
 "Assets/Scripts/GitHubLink.cs"
 "Assets/Scripts/MovingLeft.cs"
 "Assets/Scripts/MovingObstacles.cs"
 "Assets/Scripts/PlayerControls.cs"
 "Assets/Scripts/RepeatBackground.cs"
 "Assets/Scripts/SceneChanger.cs"
-"Assets/Scripts/TrashControls.cs"
+"Assets/Scripts/Spawner.cs"
 -langversion:9.0
 
 /deterministic
